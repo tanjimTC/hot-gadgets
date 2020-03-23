@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 .top{
-    margin-top: 70px;
+    margin-top: 80px;
 }
 .button{
     background-image: linear-gradient(to right,#FFA033,#FFCF19);
@@ -48,3 +48,12 @@ section{
 button:focus {
     outline: none;
 }
+
+.navigation-margin{
+    margin-bottom: 100px;
+}
+
+#page-head{
+    margin-top: 80px;
+}
+
