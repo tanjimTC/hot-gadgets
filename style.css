@@ -1,64 +1,74 @@
-body{
+body {
     font-family: 'Baloo 2', cursive;
-    position: relative; 
+    position: relative;
 }
+
 html {
     scroll-behavior: smooth;
 }
-.top{
+
+.top {
     margin-top: 80px;
 }
-.button{
-    background-image: linear-gradient(to right,#FFA033,#FFCF19);
+
+.button {
+    background-image: linear-gradient(to right, #FFA033, #FFCF19);
     margin-top: 10px;
     color: black;
 }
-section{
+
+section {
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.card{
+
+.card {
     padding: 20px 20px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px lightgray;
 }
-.see a{
+
+.see a {
     text-decoration: none;
-    color:#FFA033 ;
+    color: #FFA033;
     font-size: 20px;
 }
-.cat-underline{
+
+.cat-underline {
     width: 100px;
     height: 5px;
-    border-radius:13px;
+    border-radius: 13px;
     margin: 10px auto;
-    background-color:#FFA033 ;
+    background-color: #FFA033;
 }
-.cat-images{
+
+.cat-images {
     height: 100%;
 }
-.cat-images img{
-    
+
+.cat-images img {
+
     margin: 20px auto;
     padding: 30px;
     border: 1px solid lightgray;
     border-radius: 20px;
     box-shadow: 5px 5px 10px lightgray;
 }
+
 button:focus {
     outline: none;
 }
 
-.navigation-margin{
+.navigation-margin {
     margin-bottom: 100px;
 }
 
-#page-head{
+#page-head {
     margin-top: 80px;
 }
 
 
- 
+
 
 .navbar-toggler:focus,
 .navbar-toggler:active {
@@ -66,27 +76,27 @@ button:focus {
 }
 
 .navbar-toggler span {
-   display: block;
-   background-color: #444;
-   height: 3px;
-   width: 25px;
-   margin-top: 4px;
-   margin-bottom: 4px;
-   -webkit-transform: rotate(0deg);
-   -moz-transform: rotate(0deg);
-   -o-transform: rotate(0deg);
-   transform: rotate(0deg);
-   position: relative;
-   left: 0;
-   opacity: 1;
+    display: block;
+    background-color: #444;
+    height: 3px;
+    width: 25px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    position: relative;
+    left: 0;
+    opacity: 1;
 }
 
 .navbar-toggler span:nth-child(1),
 .navbar-toggler span:nth-child(3) {
-   -webkit-transition: transform .35s ease-in-out;
-   -moz-transition: transform .35s ease-in-out;
-   -o-transition: transform .35s ease-in-out;
-   transition: transform .35s ease-in-out;
+    -webkit-transition: transform .35s ease-in-out;
+    -moz-transition: transform .35s ease-in-out;
+    -o-transition: transform .35s ease-in-out;
+    transition: transform .35s ease-in-out;
 }
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
@@ -116,7 +126,3 @@ button:focus {
     transform: rotate(-135deg);
     opacity: 0.9;
 }
-
-
-
-
