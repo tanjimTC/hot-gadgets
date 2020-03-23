@@ -1,0 +1,47 @@
+body{
+    font-family: 'Baloo 2', cursive;
+    position: relative; 
+}
+html {
+    scroll-behavior: smooth;
+}
+.top{
+    margin-top: 70px;
+}
+.button{
+    background-image: linear-gradient(to right,#FFA033,#FFCF19);
+    margin-top: 10px;
+    color: black;
+}
+section{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.card{
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.see a{
+    text-decoration: none;
+    color:#FFA033 ;
+    font-size: 20px;
+}
+.cat-underline{
+    width: 100px;
+    height: 5px;
+    border-radius:13px;
+    margin: 10px auto;
+    background-color:#FFA033 ;
+}
+.cat-images{
+    height: 100%;
+}
+.cat-images img{
+    
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgray;
+}
