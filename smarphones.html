@@ -21,20 +21,23 @@
 </head>
 
 <body>
-    
+
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top " id="navbar-example">
             <a class="navbar-brand" href="index.html">
                 <img src="logo.png" alt="" class="img-fluid w-50 ml-2">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span> </span>
+                <span> </span>
+                <span> </span>
             </button>
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item mx-2">
-                        <a class="nav-link active" href="index.html"><i class="fas fa-home"></i> Return Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link active" href="index.html"><i class="fas fa-home"></i> Return Home<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item mx-2">
                         <a class="nav-link" href="laptops.html">See Laptops</a>
@@ -46,7 +49,7 @@
 
 
 
-    
+
     <section id="page-head">
         <h2 class="text-center mx-3" id="top">Smartphones</h2>
         <div class="cat-underline"></div>
@@ -136,7 +139,7 @@
             </div>
         </div>
     </section>
-    
+
     <footer>
         <h5 class="gray text-center mt-4 mb-3">© Tanjim 2020| All right reserved</h5>
     </footer>
@@ -152,15 +155,15 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
 
-        <script>
-            $('body').scrollspy({ target: '#navbar-example', offset:50 })
-            $(function(){
-            $('.navbar-nav>li>a').on('click', function(){
-            $('.navbar-collapse').collapse('hide');
+    <script>
+        $('body').scrollspy({ target: '#navbar-example', offset: 50 })
+        $(function () {
+            $('.navbar-nav>li>a').on('click', function () {
+                $('.navbar-collapse').collapse('hide');
             });
-            });
-    
-        </script>
+        });
+
+    </script>
 </body>
 
 </html>
