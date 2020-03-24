@@ -126,3 +126,11 @@ button:focus {
     transform: rotate(-135deg);
     opacity: 0.9;
 }
+.navbar-toggler span {
+    background-color: #FFA033;
+}
+
+.navbar-light .navbar-toggler {
+    color: #FFA033;
+    border-color: #FFA033;
+}
